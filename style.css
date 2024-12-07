@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+img {
+    /* height:75vh; */
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+#cover h1,
+h2 {
+    position: absolute;
+}
+
+h1 {
+    top: 30%;
+    left: 43%;
+}
+
+h2 {
+    top: 37%;
+    left: 40%;
+}
+
+header {
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    height: 70px;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+section {
+     padding: 60px 0;
+}
+
+#about {
+    background-color: white;
+    position: absolute;
+    top: 82.3%;
+    width: 100%;
+}
+
+.col-4 img {
+    background-size: cover;
+    min-height: 400px;
+
+}
+
+.content h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+}
+
+.content p {
+    margin-top: 0;
+    /* margin-bottom: 0; */
+}
+
+.fact-box {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.fact-box i {
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+}
+
+.fact-box span {
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    margin-left: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.fact-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+    color: #437099;
+}
+
+/* ===============================skills-========================== */
+
+.section-bg {
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.sub-heading {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #345676;
+}
+
+.divider {
+
+    height: 4px;
+    width: 50px;
+    background-color: #d43076;
+    border-radius: 3px;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.skill-box {
+    height: 50px;
+    display: block;
+}
+
+.skill-info h5 {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #2c4964;
+    font-size: 15px;
+}
+
+.skill-info h6 {
+    float: right;
+    font-style: normal;
+    margin-top: -40px;
+}
+
+.skill-ol {
+    background: #fbeaf1;
+}
+
+.skill-ul {
+    height: 5px;
+    background-color: #dd5a92;
+}
+
+/* resume======================================== */
+
+.col-6 h3 {
+    font-size: 26px;
+    font-weight: 530;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4b7dab;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-6 h5 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c4964;
+    margin-bottom: 10px;
+}
+
+.sp-box {
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.col-6 ul {
+    padding-left: 20px;
+}
+
+.col-6 ul li {
+    padding-bottom: 10px;
+}
+
+
+/* =====================services=========================== */
+
+.icon-box {
+    padding: 20px 15px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1;
+}
+
+.icon-box:hover{
+    background-color: #d43076;
+    color:white;
+}
+
+.services .icon {
+    margin: 0 auto 30px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #d43076;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon i {
+    font-size: 35px;
+    line-height: 1;
+    color: #fff;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.title a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+/* =============================portfolio================ */
+
+/* .d-flex{
+     border:2px solid black;
+    border-radius:20px;
+    background-color: white; }
+
+    .d-flex a{
+background-color: white;
+    padding:10px;
+text-decoration:none;
+border-radius:50px;
+}  */
+
+.middle {
+    margin: 0 auto 35px auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.middle a {
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #5a656e;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.port-row {
+    margin-top: px;
+    display: grid;
+    grid-template-column: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.port-row .port-img img {
+    width: 33%;
+    padding: 5px;
+}
+
+/* ========================testimonials=========================== */
+
+.swiper {
+    width: 100%;
+    height: 380px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    position: absolute;
+    top: 360px !important;
+    color: #d43076;
+    opacity: 1;
+    left: 25px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #d43076;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    /* width: 100%;
+      height: 100%; */
+    object-fit: cover;
+  }
+  
+  .testimonials-slider {
+    overflow: hidden;
+  }
+  
+  .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+  }
+  
+  .testimonial-item p {
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: #fff;
+    color: gray;
+    position: relative;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #2c4964;
+  }
+  
+  .testimonial-item h4 {
+    font-size: 14px;
+    color: #6b96be;
+    margin: 0 0 0 45px;
+  }
+
+  .testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+  color: #f7d9e6;
+  font-size: 26px;
+}   
+
+/* ============================contact============================ */
+.display-6{
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d43076;
+}
+
+.col-4 p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Playfair Display", serif;
+    color: #3c6387;
+}
+
+.social-media a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #d43076;
+    line-height: 0;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #d43076;
+}
+
+.social-media a:hover{
+    background-color:#d43076;
+}
+
+.social-media a:hover i{
+    color:white ;
+}
+.contact-info i {
+    font-size: 32px;
+    color: #d43076;
+    line-height: 1;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 0;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+
+.form button{
+    background-color: #d43076;
+    border-radius:20px;
+    
+}
